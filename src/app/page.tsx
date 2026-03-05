@@ -8,7 +8,6 @@ import {
   GraduationCap,
   ExternalLink,
   ChevronDown,
-  BookOpen,
   Play,
   Calendar,
   MapPin,
@@ -194,6 +193,13 @@ const EDUCATION = [
     description:
       "Research on reinforcement learning for robotic systems with defence applications, supervised by Prof. Damien Ernst.",
     isActive: true,
+  },
+  {
+    period: "2024 — 2026",
+    title: "Teaching Assistant — Reinforcement Learning",
+    institution: "INFO0948 · University of Liège",
+    description:
+      "Tutorial sessions, student project supervision, and exam preparation.",
   },
   {
     period: "2021 — 2023",
@@ -571,49 +577,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ═══════════ 06 — TEACHING ═══════════ */}
-      <section id="teaching" className="section-dark">
-        <div className="section-divider" />
-        <div className="section-container">
-          <AnimatedSection>
-            <SectionHeader index="06" title="Teaching" />
-          </AnimatedSection>
-
-          <AnimatedSection delay={0.15}>
-            <div className="relative max-w-2xl p-6 border border-border-dark bg-bg-dark-card hover:border-accent/40 hover:shadow-lg transition-all duration-500">
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 border border-accent/30 flex items-center justify-center text-accent shrink-0">
-                  <BookOpen size={18} />
-                </div>
-                <div>
-                  <p className="font-mono text-[10px] text-accent tracking-[0.2em] uppercase mb-1">
-                    2024 — 2026
-                  </p>
-                  <h3 className="font-display text-lg font-semibold text-text-primary">
-                    Teaching Assistant — Reinforcement Learning
-                  </h3>
-                  <p className="text-sm text-text-secondary mt-1">
-                    INFO0948 · University of Liège
-                  </p>
-                  <p className="text-base text-text-secondary mt-3 leading-relaxed">
-                    Assisting in the Reinforcement Learning course, including
-                    tutorial sessions, student project supervision, and exam
-                    preparation. Covering value-based methods, policy gradients,
-                    actor-critic architectures, and multi-agent RL.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
-
-      {/* ═══════════ 07 — HOBBIES ═══════════ */}
+      {/* ═══════════ 06 — HOBBIES ═══════════ */}
       <section id="hobbies" className="section-dark">
         <div className="section-divider" />
         <div className="section-container">
           <AnimatedSection>
-            <SectionHeader index="07" title="Passions" subtitle="Beyond the lab." />
+            <SectionHeader index="06" title="Passions" subtitle="Beyond the lab." />
           </AnimatedSection>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -670,13 +639,14 @@ export default function Home() {
       </section>
 
       {/* ═══════════ 07 — CONTACT ═══════════ */}
+
       <section id="contact" className="section-light">
         <div className="section-divider-light" />
         <div className="section-container">
           <AnimatedSection>
             <div className="max-w-2xl mx-auto text-center mb-12">
               <p className="font-mono text-[10px] text-accent tracking-[0.2em] uppercase mb-4">
-                08
+                07
               </p>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-text-dark mb-6">
                 Get in Touch

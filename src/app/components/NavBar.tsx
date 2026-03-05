@@ -9,7 +9,6 @@ const NAV_ITEMS = [
     { id: "publications", label: "Publications" },
     { id: "news", label: "News" },
     { id: "education", label: "Education" },
-    { id: "teaching", label: "Teaching" },
     { id: "hobbies", label: "Passions" },
 ];
 
