@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-12T11:10:21.368685+00:00",
-  "total_matches": 66,
-  "total_games": 660,
+  "last_updated": "2026-05-19T07:34:11.316964+00:00",
+  "total_matches": 136,
+  "total_games": 1360,
   "rankings": [
     {
       "rank": 1,
@@ -10,25 +10,25 @@
       "approach": "rl",
       "description": "Instructor agent trained by A. Louette. Implementation withheld.",
       "author": "A. Louette",
-      "elo": 2030.3,
-      "games": 110,
-      "wins": 105,
-      "losses": 5,
+      "elo": 2027.4,
+      "games": 160,
+      "wins": 148,
+      "losses": 12,
       "draws": 0,
-      "kills": 2,
-      "kill_rate": 0.018,
-      "win_rate": 0.955,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.925,
       "deaths": {
         "shot_down": 0,
-        "collision": 18,
+        "collision": 53,
         "out_of_bounds": 0,
-        "timeout": 10,
-        "survived": 82
+        "timeout": 11,
+        "survived": 96
       },
-      "avg_health_remaining": 0.836,
-      "avg_damage_dealt": 0.13,
-      "avg_damage_taken": 0.0,
-      "avg_survival_time": 23.0,
+      "avg_health_remaining": 0.669,
+      "avg_damage_dealt": 0.085,
+      "avg_damage_taken": 0.001,
+      "avg_survival_time": 22.6,
       "per_opponent": [
         {
           "opponent": "heuristic_aggressive",
@@ -48,7 +48,7 @@
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 1.0,
-          "avg_damage_dealt": 0.236
+          "avg_damage_dealt": 0.113
         },
         {
           "opponent": "heuristic_circler",
@@ -58,7 +58,7 @@
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 1.0,
-          "avg_damage_dealt": 0.266
+          "avg_damage_dealt": 0.137
         },
         {
           "opponent": "heuristic_evasive",
@@ -68,7 +68,7 @@
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 1.0,
-          "avg_damage_dealt": 0.206
+          "avg_damage_dealt": 0.191
         },
         {
           "opponent": "heuristic_hunter",
@@ -78,7 +78,7 @@
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 1.0,
-          "avg_damage_dealt": 0.09
+          "avg_damage_dealt": 0.188
         },
         {
           "opponent": "heuristic_pn",
@@ -88,207 +88,117 @@
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 1.0,
-          "avg_damage_dealt": 0.151
+          "avg_damage_dealt": 0.287
         },
         {
           "opponent": "heuristic_survivor",
           "games": 10,
           "wins": 10,
           "losses": 0,
-          "kills": 2,
-          "kill_rate": 0.2,
+          "kills": 0,
+          "kill_rate": 0.0,
           "win_rate": 1.0,
-          "avg_damage_dealt": 0.245
+          "avg_damage_dealt": 0.07
         },
         {
           "opponent": "group06_ppo1",
-          "games": 10,
-          "wins": 9,
-          "losses": 1,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.9,
-          "avg_damage_dealt": 0.007
-        },
-        {
-          "opponent": "group04_league",
-          "games": 10,
-          "wins": 9,
-          "losses": 1,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.9,
-          "avg_damage_dealt": 0.059
-        },
-        {
-          "opponent": "groupRafalev2_ppo",
           "games": 10,
           "wins": 10,
           "losses": 0,
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 1.0,
-          "avg_damage_dealt": 0.007
+          "avg_damage_dealt": 0.001
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.029
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.006
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.043
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.001
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.116
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.004
         }
       ],
-      "elo_stderr": 73.6
+      "elo_stderr": 64.0
     },
     {
       "rank": 2,
-      "name": "group04_league",
-      "display_name": "Group 04",
-      "approach": "rl",
-      "description": "",
-      "author": "group04",
-      "elo": 1793.6,
-      "games": 110,
-      "wins": 90,
-      "losses": 20,
-      "draws": 0,
-      "kills": 0,
-      "kill_rate": 0.0,
-      "win_rate": 0.818,
-      "deaths": {
-        "shot_down": 0,
-        "collision": 16,
-        "out_of_bounds": 0,
-        "timeout": 19,
-        "survived": 75
-      },
-      "avg_health_remaining": 0.85,
-      "avg_damage_dealt": 0.001,
-      "avg_damage_taken": 0.009,
-      "avg_survival_time": 29.3,
-      "per_opponent": [
-        {
-          "opponent": "heuristic_aggressive",
-          "games": 10,
-          "wins": 10,
-          "losses": 0,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 1.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_apf",
-          "games": 10,
-          "wins": 10,
-          "losses": 0,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 1.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_circler",
-          "games": 10,
-          "wins": 10,
-          "losses": 0,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 1.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_evasive",
-          "games": 10,
-          "wins": 10,
-          "losses": 0,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 1.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_hunter",
-          "games": 10,
-          "wins": 10,
-          "losses": 0,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 1.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_pn",
-          "games": 10,
-          "wins": 10,
-          "losses": 0,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 1.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_survivor",
-          "games": 10,
-          "wins": 10,
-          "losses": 0,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 1.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "arthur_louette",
-          "games": 10,
-          "wins": 1,
-          "losses": 9,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.1,
-          "avg_damage_dealt": 0.002
-        },
-        {
-          "opponent": "group06_ppo1",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.004
-        },
-        {
-          "opponent": "groupRafalev2_ppo",
-          "games": 10,
-          "wins": 9,
-          "losses": 1,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.9,
-          "avg_damage_dealt": 0.0
-        }
-      ],
-      "elo_stderr": 50.8
-    },
-    {
-      "rank": 3,
       "name": "group06_ppo1",
-      "display_name": "Group 06",
+      "display_name": "BodeuxMoreno",
       "approach": "rl",
       "description": "",
       "author": "group06",
-      "elo": 1758.2,
-      "games": 110,
-      "wins": 87,
+      "elo": 1821.7,
+      "games": 160,
+      "wins": 137,
       "losses": 23,
       "draws": 0,
       "kills": 0,
       "kill_rate": 0.0,
-      "win_rate": 0.791,
+      "win_rate": 0.856,
       "deaths": {
         "shot_down": 0,
-        "collision": 40,
+        "collision": 49,
         "out_of_bounds": 0,
-        "timeout": 7,
-        "survived": 63
+        "timeout": 14,
+        "survived": 97
       },
-      "avg_health_remaining": 0.636,
-      "avg_damage_dealt": 0.006,
-      "avg_damage_taken": 0.001,
-      "avg_survival_time": 22.6,
+      "avg_health_remaining": 0.693,
+      "avg_damage_dealt": 0.013,
+      "avg_damage_taken": 0.0,
+      "avg_survival_time": 24.3,
       "per_opponent": [
         {
           "opponent": "heuristic_aggressive",
@@ -313,11 +223,691 @@
         {
           "opponent": "heuristic_circler",
           "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.001
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.05
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.03
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.036
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.002
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.014
+        }
+      ],
+      "elo_stderr": 44.8
+    },
+    {
+      "rank": 3,
+      "name": "group04_v6",
+      "display_name": "Groupe",
+      "approach": "rl",
+      "description": "Group 04 dogfight tournament submission \u2014 v6 Kill-focused PPO.",
+      "author": "group04",
+      "elo": 1700.9,
+      "games": 160,
+      "wins": 120,
+      "losses": 40,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.75,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 25,
+        "out_of_bounds": 0,
+        "timeout": 33,
+        "survived": 102
+      },
+      "avg_health_remaining": 0.837,
+      "avg_damage_dealt": 0.007,
+      "avg_damage_taken": 0.01,
+      "avg_survival_time": 32.0,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
           "wins": 8,
           "losses": 2,
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 0.8,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.8,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.003
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.007
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.041
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.001
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.007
+        }
+      ],
+      "elo_stderr": 38.6
+    },
+    {
+      "rank": 4,
+      "name": "groupMaioRutten_league",
+      "display_name": "MaioRutten",
+      "approach": "rl",
+      "description": "Tournament submission for groupXX (league).",
+      "author": "groupMaioRutten",
+      "elo": 1656.8,
+      "games": 160,
+      "wins": 115,
+      "losses": 45,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.719,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 66,
+        "out_of_bounds": 0,
+        "timeout": 16,
+        "survived": 78
+      },
+      "avg_health_remaining": 0.587,
+      "avg_damage_dealt": 0.01,
+      "avg_damage_taken": 0.002,
+      "avg_survival_time": 23.7,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.8,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.005
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.038
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.015
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.035
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.002
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        }
+      ],
+      "elo_stderr": 37.0
+    },
+    {
+      "rank": 5,
+      "name": "group56_main",
+      "display_name": "BestGroup",
+      "approach": "rl",
+      "description": "Tournament submission. Rename this file to groupXX_<name>.py for submission.",
+      "author": "group56",
+      "elo": 1609.1,
+      "games": 160,
+      "wins": 97,
+      "losses": 63,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.606,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 52,
+        "out_of_bounds": 0,
+        "timeout": 12,
+        "survived": 96
+      },
+      "avg_health_remaining": 0.669,
+      "avg_damage_dealt": 0.0,
+      "avg_damage_taken": 0.007,
+      "avg_survival_time": 27.5,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        }
+      ],
+      "elo_stderr": 35.6
+    },
+    {
+      "rank": 6,
+      "name": "RealMadrid",
+      "display_name": "RealMadrid",
+      "approach": "rl",
+      "description": "Submission template for the dogfight tournament.",
+      "author": "RealMadrid",
+      "elo": 1485.6,
+      "games": 160,
+      "wins": 84,
+      "losses": 76,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.525,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 56,
+        "out_of_bounds": 3,
+        "timeout": 17,
+        "survived": 84
+      },
+      "avg_health_remaining": 0.626,
+      "avg_damage_dealt": 0.002,
+      "avg_damage_taken": 0.011,
+      "avg_survival_time": 26.3,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
           "avg_damage_dealt": 0.0
         },
         {
@@ -343,42 +933,52 @@
         {
           "opponent": "heuristic_pn",
           "games": 10,
-          "wins": 9,
-          "losses": 1,
+          "wins": 3,
+          "losses": 7,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.9,
+          "win_rate": 0.3,
           "avg_damage_dealt": 0.0
         },
         {
           "opponent": "heuristic_survivor",
           "games": 10,
-          "wins": 8,
-          "losses": 2,
+          "wins": 4,
+          "losses": 6,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.8,
+          "win_rate": 0.4,
           "avg_damage_dealt": 0.0
         },
         {
           "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.003
+        },
+        {
+          "opponent": "group04_v6",
           "games": 10,
           "wins": 1,
           "losses": 9,
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 0.1,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group04_league",
-          "games": 10,
-          "wins": 10,
-          "losses": 0,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 1.0,
-          "avg_damage_dealt": 0.034
+          "avg_damage_dealt": 0.011
         },
         {
           "opponent": "groupRafalev2_ppo",
@@ -388,37 +988,67 @@
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 1.0,
-          "avg_damage_dealt": 0.017
+          "avg_damage_dealt": 0.005
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.003
         }
       ],
-      "elo_stderr": 48.7
+      "elo_stderr": 33.5
     },
     {
-      "rank": 4,
+      "rank": 7,
       "name": "heuristic_evasive",
       "display_name": "Evasive",
       "approach": "heuristic",
       "description": "Evasive agent with BFM-style avoidance.",
       "author": "A. Louette",
-      "elo": 1497.3,
-      "games": 110,
-      "wins": 58,
-      "losses": 52,
+      "elo": 1468.0,
+      "games": 160,
+      "wins": 70,
+      "losses": 90,
       "draws": 0,
       "kills": 0,
       "kill_rate": 0.0,
-      "win_rate": 0.527,
+      "win_rate": 0.438,
       "deaths": {
         "shot_down": 0,
         "collision": 0,
-        "out_of_bounds": 53,
+        "out_of_bounds": 90,
         "timeout": 0,
-        "survived": 57
+        "survived": 70
       },
-      "avg_health_remaining": 0.518,
+      "avg_health_remaining": 0.438,
       "avg_damage_dealt": 0.0,
-      "avg_damage_taken": 0.019,
-      "avg_survival_time": 22.9,
+      "avg_damage_taken": 0.012,
+      "avg_survival_time": 22.3,
       "per_opponent": [
         {
           "opponent": "heuristic_aggressive",
@@ -433,21 +1063,21 @@
         {
           "opponent": "heuristic_apf",
           "games": 10,
-          "wins": 10,
-          "losses": 0,
+          "wins": 8,
+          "losses": 2,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 1.0,
+          "win_rate": 0.8,
           "avg_damage_dealt": 0.0
         },
         {
           "opponent": "heuristic_circler",
           "games": 10,
-          "wins": 9,
-          "losses": 1,
+          "wins": 7,
+          "losses": 3,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.9,
+          "win_rate": 0.7,
           "avg_damage_dealt": 0.0
         },
         {
@@ -463,21 +1093,21 @@
         {
           "opponent": "heuristic_pn",
           "games": 10,
-          "wins": 7,
-          "losses": 3,
+          "wins": 9,
+          "losses": 1,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.7,
+          "win_rate": 0.9,
           "avg_damage_dealt": 0.0
         },
         {
           "opponent": "heuristic_survivor",
           "games": 10,
-          "wins": 8,
-          "losses": 2,
+          "wins": 7,
+          "losses": 3,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.8,
+          "win_rate": 0.7,
           "avg_damage_dealt": 0.0
         },
         {
@@ -493,15 +1123,15 @@
         {
           "opponent": "group06_ppo1",
           "games": 10,
-          "wins": 2,
-          "losses": 8,
+          "wins": 3,
+          "losses": 7,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.2,
+          "win_rate": 0.3,
           "avg_damage_dealt": 0.0
         },
         {
-          "opponent": "group04_league",
+          "opponent": "group04_v6",
           "games": 10,
           "wins": 0,
           "losses": 10,
@@ -513,6 +1143,216 @@
         {
           "opponent": "groupRafalev2_ppo",
           "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 2,
+          "losses": 8,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.2,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        }
+      ],
+      "elo_stderr": 33.4
+    },
+    {
+      "rank": 8,
+      "name": "heuristic_survivor",
+      "display_name": "Survivor",
+      "approach": "heuristic",
+      "description": "Pure-survival agent: orbits the dome center, ignores the opponent.",
+      "author": "A. Louette",
+      "elo": 1421.0,
+      "games": 160,
+      "wins": 60,
+      "losses": 100,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.375,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 0,
+        "out_of_bounds": 102,
+        "timeout": 0,
+        "survived": 58
+      },
+      "avg_health_remaining": 0.362,
+      "avg_damage_dealt": 0.0,
+      "avg_damage_taken": 0.004,
+      "avg_survival_time": 21.8,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.8,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
           "wins": 4,
           "losses": 6,
           "kills": 0,
@@ -521,33 +1361,883 @@
           "avg_damage_dealt": 0.0
         }
       ],
-      "elo_stderr": 38.3
+      "elo_stderr": 33.4
     },
     {
-      "rank": 5,
-      "name": "groupRafalev2_ppo",
-      "display_name": "Raphalev2",
-      "approach": "rl",
-      "description": "Tournament submission \u2014 dogfight PPO (self-play trained).",
-      "author": "groupRafalev2",
-      "elo": 1394.7,
-      "games": 110,
-      "wins": 44,
-      "losses": 66,
+      "rank": 9,
+      "name": "heuristic_apf",
+      "display_name": "Apf",
+      "approach": "heuristic",
+      "description": "Artificial Potential Fields agent with offset approach.",
+      "author": "A. Louette",
+      "elo": 1409.2,
+      "games": 160,
+      "wins": 59,
+      "losses": 101,
       "draws": 0,
       "kills": 0,
       "kill_rate": 0.0,
-      "win_rate": 0.4,
+      "win_rate": 0.369,
       "deaths": {
         "shot_down": 0,
-        "collision": 60,
-        "out_of_bounds": 0,
-        "timeout": 9,
-        "survived": 41
+        "collision": 0,
+        "out_of_bounds": 101,
+        "timeout": 0,
+        "survived": 59
       },
-      "avg_health_remaining": 0.454,
-      "avg_damage_dealt": 0.001,
-      "avg_damage_taken": 0.002,
+      "avg_health_remaining": 0.369,
+      "avg_damage_dealt": 0.0,
+      "avg_damage_taken": 0.007,
+      "avg_survival_time": 20.8,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 2,
+          "losses": 8,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.2,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 2,
+          "losses": 8,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.2,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        }
+      ],
+      "elo_stderr": 33.5
+    },
+    {
+      "rank": 10,
+      "name": "heuristic_aggressive",
+      "display_name": "Aggressive",
+      "approach": "heuristic",
+      "description": "Pursuit agent with BFM-style approach.",
+      "author": "A. Louette",
+      "elo": 1403.3,
+      "games": 160,
+      "wins": 58,
+      "losses": 102,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.362,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 0,
+        "out_of_bounds": 104,
+        "timeout": 0,
+        "survived": 56
+      },
+      "avg_health_remaining": 0.35,
+      "avg_damage_dealt": 0.0,
+      "avg_damage_taken": 0.007,
+      "avg_survival_time": 21.8,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.8,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        }
+      ],
+      "elo_stderr": 33.5
+    },
+    {
+      "rank": 11,
+      "name": "heuristic_circler",
+      "display_name": "Circler",
+      "approach": "heuristic",
+      "description": "Circling agent with BFM-style orbit.",
+      "author": "A. Louette",
+      "elo": 1361.3,
+      "games": 160,
+      "wins": 55,
+      "losses": 105,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.344,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 0,
+        "out_of_bounds": 105,
+        "timeout": 0,
+        "survived": 55
+      },
+      "avg_health_remaining": 0.344,
+      "avg_damage_dealt": 0.0,
+      "avg_damage_taken": 0.009,
+      "avg_survival_time": 21.3,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 2,
+          "losses": 8,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.2,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 2,
+          "losses": 8,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.2,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        }
+      ],
+      "elo_stderr": 34.0
+    },
+    {
+      "rank": 12,
+      "name": "heuristic_pn",
+      "display_name": "Pn",
+      "approach": "heuristic",
+      "description": "Proportional Navigation agent with offset approach.",
+      "author": "A. Louette",
+      "elo": 1336.7,
+      "games": 160,
+      "wins": 49,
+      "losses": 111,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.306,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 0,
+        "out_of_bounds": 111,
+        "timeout": 0,
+        "survived": 49
+      },
+      "avg_health_remaining": 0.306,
+      "avg_damage_dealt": 0.0,
+      "avg_damage_taken": 0.018,
+      "avg_survival_time": 21.2,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_hunter",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 7,
+          "losses": 3,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.7,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 9,
+          "losses": 1,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.9,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 2,
+          "losses": 8,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.2,
+          "avg_damage_dealt": 0.0
+        }
+      ],
+      "elo_stderr": 34.5
+    },
+    {
+      "rank": 13,
+      "name": "heuristic_hunter",
+      "display_name": "Hunter",
+      "approach": "heuristic",
+      "description": "Active-pursuit agent designed to land shot-downs.",
+      "author": "A. Louette",
+      "elo": 1336.7,
+      "games": 160,
+      "wins": 46,
+      "losses": 114,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.287,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 0,
+        "out_of_bounds": 114,
+        "timeout": 0,
+        "survived": 46
+      },
+      "avg_health_remaining": 0.287,
+      "avg_damage_dealt": 0.0,
+      "avg_damage_taken": 0.012,
+      "avg_survival_time": 21.4,
+      "per_opponent": [
+        {
+          "opponent": "heuristic_aggressive",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_apf",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_evasive",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_pn",
+          "games": 10,
+          "wins": 5,
+          "losses": 5,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.5,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_survivor",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "arthur_louette",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group04_v6",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupRafalev2_ppo",
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.8,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 2,
+          "losses": 8,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.2,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 8,
+          "losses": 2,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.8,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 6,
+          "losses": 4,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.6,
+          "avg_damage_dealt": 0.0
+        }
+      ],
+      "elo_stderr": 34.5
+    },
+    {
+      "rank": 14,
+      "name": "groupRafalev2_ppo",
+      "display_name": "Rafalev2",
+      "approach": "rl",
+      "description": "Tournament submission \u2014 dogfight PPO (self-play trained).",
+      "author": "groupRafalev2",
+      "elo": 1336.7,
+      "games": 160,
+      "wins": 45,
+      "losses": 115,
+      "draws": 0,
+      "kills": 0,
+      "kill_rate": 0.0,
+      "win_rate": 0.281,
+      "deaths": {
+        "shot_down": 0,
+        "collision": 98,
+        "out_of_bounds": 0,
+        "timeout": 10,
+        "survived": 52
+      },
+      "avg_health_remaining": 0.386,
+      "avg_damage_dealt": 0.0,
+      "avg_damage_taken": 0.005,
       "avg_survival_time": 21.9,
       "per_opponent": [
         {
@@ -563,11 +2253,11 @@
         {
           "opponent": "heuristic_apf",
           "games": 10,
-          "wins": 6,
-          "losses": 4,
+          "wins": 3,
+          "losses": 7,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.6,
+          "win_rate": 0.3,
           "avg_damage_dealt": 0.0
         },
         {
@@ -583,531 +2273,11 @@
         {
           "opponent": "heuristic_evasive",
           "games": 10,
-          "wins": 6,
-          "losses": 4,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.6,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_hunter",
-          "games": 10,
-          "wins": 7,
-          "losses": 3,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.7,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_pn",
-          "games": 10,
-          "wins": 3,
-          "losses": 7,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.3,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_survivor",
-          "games": 10,
-          "wins": 3,
-          "losses": 7,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.3,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "arthur_louette",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group06_ppo1",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group04_league",
-          "games": 10,
-          "wins": 1,
-          "losses": 9,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.1,
-          "avg_damage_dealt": 0.005
-        }
-      ],
-      "elo_stderr": 37.5
-    },
-    {
-      "rank": 6,
-      "name": "heuristic_survivor",
-      "display_name": "Survivor",
-      "approach": "heuristic",
-      "description": "Pure-survival agent: orbits the dome center, ignores the opponent.",
-      "author": "A. Louette",
-      "elo": 1387.5,
-      "games": 110,
-      "wins": 43,
-      "losses": 67,
-      "draws": 0,
-      "kills": 0,
-      "kill_rate": 0.0,
-      "win_rate": 0.391,
-      "deaths": {
-        "shot_down": 2,
-        "collision": 0,
-        "out_of_bounds": 65,
-        "timeout": 0,
-        "survived": 43
-      },
-      "avg_health_remaining": 0.391,
-      "avg_damage_dealt": 0.0,
-      "avg_damage_taken": 0.022,
-      "avg_survival_time": 22.2,
-      "per_opponent": [
-        {
-          "opponent": "heuristic_aggressive",
-          "games": 10,
-          "wins": 4,
-          "losses": 6,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.4,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_apf",
-          "games": 10,
           "wins": 5,
           "losses": 5,
           "kills": 0,
           "kill_rate": 0.0,
           "win_rate": 0.5,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_circler",
-          "games": 10,
-          "wins": 7,
-          "losses": 3,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.7,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_evasive",
-          "games": 10,
-          "wins": 2,
-          "losses": 8,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.2,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_hunter",
-          "games": 10,
-          "wins": 6,
-          "losses": 4,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.6,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_pn",
-          "games": 10,
-          "wins": 5,
-          "losses": 5,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.5,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "arthur_louette",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group06_ppo1",
-          "games": 10,
-          "wins": 2,
-          "losses": 8,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.2,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group04_league",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "groupRafalev2_ppo",
-          "games": 10,
-          "wins": 7,
-          "losses": 3,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.7,
-          "avg_damage_dealt": 0.0
-        }
-      ],
-      "elo_stderr": 37.5
-    },
-    {
-      "rank": 7,
-      "name": "heuristic_aggressive",
-      "display_name": "Aggressive",
-      "approach": "heuristic",
-      "description": "Pursuit agent with BFM-style approach.",
-      "author": "A. Louette",
-      "elo": 1380.2,
-      "games": 110,
-      "wins": 42,
-      "losses": 68,
-      "draws": 0,
-      "kills": 0,
-      "kill_rate": 0.0,
-      "win_rate": 0.382,
-      "deaths": {
-        "shot_down": 0,
-        "collision": 0,
-        "out_of_bounds": 70,
-        "timeout": 0,
-        "survived": 40
-      },
-      "avg_health_remaining": 0.364,
-      "avg_damage_dealt": 0.0,
-      "avg_damage_taken": 0.011,
-      "avg_survival_time": 22.5,
-      "per_opponent": [
-        {
-          "opponent": "heuristic_apf",
-          "games": 10,
-          "wins": 6,
-          "losses": 4,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.6,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_circler",
-          "games": 10,
-          "wins": 7,
-          "losses": 3,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.7,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_evasive",
-          "games": 10,
-          "wins": 4,
-          "losses": 6,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.4,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_hunter",
-          "games": 10,
-          "wins": 5,
-          "losses": 5,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.5,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_pn",
-          "games": 10,
-          "wins": 6,
-          "losses": 4,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.6,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_survivor",
-          "games": 10,
-          "wins": 6,
-          "losses": 4,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.6,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "arthur_louette",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group06_ppo1",
-          "games": 10,
-          "wins": 3,
-          "losses": 7,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.3,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group04_league",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "groupRafalev2_ppo",
-          "games": 10,
-          "wins": 4,
-          "losses": 6,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.4,
-          "avg_damage_dealt": 0.0
-        }
-      ],
-      "elo_stderr": 37.6
-    },
-    {
-      "rank": 8,
-      "name": "heuristic_apf",
-      "display_name": "Apf",
-      "approach": "heuristic",
-      "description": "Artificial Potential Fields agent with offset approach.",
-      "author": "A. Louette",
-      "elo": 1328.5,
-      "games": 110,
-      "wins": 35,
-      "losses": 75,
-      "draws": 0,
-      "kills": 0,
-      "kill_rate": 0.0,
-      "win_rate": 0.318,
-      "deaths": {
-        "shot_down": 0,
-        "collision": 0,
-        "out_of_bounds": 75,
-        "timeout": 0,
-        "survived": 35
-      },
-      "avg_health_remaining": 0.318,
-      "avg_damage_dealt": 0.0,
-      "avg_damage_taken": 0.021,
-      "avg_survival_time": 22.1,
-      "per_opponent": [
-        {
-          "opponent": "heuristic_aggressive",
-          "games": 10,
-          "wins": 4,
-          "losses": 6,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.4,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_circler",
-          "games": 10,
-          "wins": 7,
-          "losses": 3,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.7,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_evasive",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_hunter",
-          "games": 10,
-          "wins": 5,
-          "losses": 5,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.5,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_pn",
-          "games": 10,
-          "wins": 7,
-          "losses": 3,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.7,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_survivor",
-          "games": 10,
-          "wins": 5,
-          "losses": 5,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.5,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "arthur_louette",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group06_ppo1",
-          "games": 10,
-          "wins": 1,
-          "losses": 9,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.1,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group04_league",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "groupRafalev2_ppo",
-          "games": 10,
-          "wins": 4,
-          "losses": 6,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.4,
-          "avg_damage_dealt": 0.0
-        }
-      ],
-      "elo_stderr": 38.3
-    },
-    {
-      "rank": 9,
-      "name": "heuristic_pn",
-      "display_name": "Pn",
-      "approach": "heuristic",
-      "description": "Proportional Navigation agent with offset approach.",
-      "author": "A. Louette",
-      "elo": 1320.9,
-      "games": 110,
-      "wins": 34,
-      "losses": 76,
-      "draws": 0,
-      "kills": 0,
-      "kill_rate": 0.0,
-      "win_rate": 0.309,
-      "deaths": {
-        "shot_down": 0,
-        "collision": 0,
-        "out_of_bounds": 77,
-        "timeout": 0,
-        "survived": 33
-      },
-      "avg_health_remaining": 0.3,
-      "avg_damage_dealt": 0.0,
-      "avg_damage_taken": 0.014,
-      "avg_survival_time": 22.2,
-      "per_opponent": [
-        {
-          "opponent": "heuristic_aggressive",
-          "games": 10,
-          "wins": 4,
-          "losses": 6,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.4,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_apf",
-          "games": 10,
-          "wins": 3,
-          "losses": 7,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.3,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_circler",
-          "games": 10,
-          "wins": 5,
-          "losses": 5,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.5,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_evasive",
-          "games": 10,
-          "wins": 3,
-          "losses": 7,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.3,
           "avg_damage_dealt": 0.0
         },
         {
@@ -1121,7 +2291,7 @@
           "avg_damage_dealt": 0.0
         },
         {
-          "opponent": "heuristic_survivor",
+          "opponent": "heuristic_pn",
           "games": 10,
           "wins": 5,
           "losses": 5,
@@ -1131,17 +2301,17 @@
           "avg_damage_dealt": 0.0
         },
         {
-          "opponent": "arthur_louette",
+          "opponent": "heuristic_survivor",
           "games": 10,
-          "wins": 0,
-          "losses": 10,
+          "wins": 3,
+          "losses": 7,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.0,
+          "win_rate": 0.3,
           "avg_damage_dealt": 0.0
         },
         {
-          "opponent": "group06_ppo1",
+          "opponent": "arthur_louette",
           "games": 10,
           "wins": 1,
           "losses": 9,
@@ -1151,7 +2321,7 @@
           "avg_damage_dealt": 0.0
         },
         {
-          "opponent": "group04_league",
+          "opponent": "group06_ppo1",
           "games": 10,
           "wins": 0,
           "losses": 10,
@@ -1161,63 +2331,113 @@
           "avg_damage_dealt": 0.0
         },
         {
-          "opponent": "groupRafalev2_ppo",
+          "opponent": "group04_v6",
           "games": 10,
-          "wins": 7,
-          "losses": 3,
+          "wins": 0,
+          "losses": 10,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.7,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.002
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.001
+        },
+        {
+          "opponent": "groupSoAlone_whatever",
+          "games": 10,
+          "wins": 10,
+          "losses": 0,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 1.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
           "avg_damage_dealt": 0.0
         }
       ],
-      "elo_stderr": 38.5
+      "elo_stderr": 34.5
     },
     {
-      "rank": 10,
-      "name": "heuristic_circler",
-      "display_name": "Circler",
-      "approach": "heuristic",
-      "description": "Circling agent with BFM-style orbit.",
-      "author": "A. Louette",
-      "elo": 1305.7,
-      "games": 110,
-      "wins": 32,
-      "losses": 78,
+      "rank": 15,
+      "name": "groupSoAlone_whatever",
+      "display_name": "SoAlone",
+      "approach": "rl",
+      "description": "Submission template for the dogfight tournament.",
+      "author": "groupSoAlone",
+      "elo": 1125.5,
+      "games": 160,
+      "wins": 18,
+      "losses": 142,
       "draws": 0,
       "kills": 0,
       "kill_rate": 0.0,
-      "win_rate": 0.291,
+      "win_rate": 0.113,
       "deaths": {
         "shot_down": 0,
-        "collision": 0,
-        "out_of_bounds": 78,
+        "collision": 141,
+        "out_of_bounds": 0,
         "timeout": 0,
-        "survived": 32
+        "survived": 19
       },
-      "avg_health_remaining": 0.291,
+      "avg_health_remaining": 0.119,
       "avg_damage_dealt": 0.0,
-      "avg_damage_taken": 0.024,
-      "avg_survival_time": 22.0,
+      "avg_damage_taken": 0.0,
+      "avg_survival_time": 9.4,
       "per_opponent": [
         {
           "opponent": "heuristic_aggressive",
           "games": 10,
-          "wins": 3,
-          "losses": 7,
+          "wins": 2,
+          "losses": 8,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.3,
+          "win_rate": 0.2,
           "avg_damage_dealt": 0.0
         },
         {
           "opponent": "heuristic_apf",
           "games": 10,
-          "wins": 3,
-          "losses": 7,
+          "wins": 0,
+          "losses": 10,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.3,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "heuristic_circler",
+          "games": 10,
+          "wins": 4,
+          "losses": 6,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.4,
           "avg_damage_dealt": 0.0
         },
         {
@@ -1233,21 +2453,21 @@
         {
           "opponent": "heuristic_hunter",
           "games": 10,
-          "wins": 7,
-          "losses": 3,
+          "wins": 2,
+          "losses": 8,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.7,
+          "win_rate": 0.2,
           "avg_damage_dealt": 0.0
         },
         {
           "opponent": "heuristic_pn",
           "games": 10,
-          "wins": 5,
-          "losses": 5,
+          "wins": 1,
+          "losses": 9,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.5,
+          "win_rate": 0.1,
           "avg_damage_dealt": 0.0
         },
         {
@@ -1263,6 +2483,16 @@
         {
           "opponent": "arthur_louette",
           "games": 10,
+          "wins": 3,
+          "losses": 7,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.3,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "group06_ppo1",
+          "games": 10,
           "wins": 0,
           "losses": 10,
           "kills": 0,
@@ -1271,17 +2501,7 @@
           "avg_damage_dealt": 0.0
         },
         {
-          "opponent": "group06_ppo1",
-          "games": 10,
-          "wins": 2,
-          "losses": 8,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.2,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group04_league",
+          "opponent": "group04_v6",
           "games": 10,
           "wins": 0,
           "losses": 10,
@@ -1293,145 +2513,45 @@
         {
           "opponent": "groupRafalev2_ppo",
           "games": 10,
-          "wins": 4,
-          "losses": 6,
+          "wins": 0,
+          "losses": 10,
           "kills": 0,
           "kill_rate": 0.0,
-          "win_rate": 0.4,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "RealMadrid",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.003
+        },
+        {
+          "opponent": "group56_main",
+          "games": 10,
+          "wins": 0,
+          "losses": 10,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.0,
+          "avg_damage_dealt": 0.0
+        },
+        {
+          "opponent": "groupMaioRutten_league",
+          "games": 10,
+          "wins": 1,
+          "losses": 9,
+          "kills": 0,
+          "kill_rate": 0.0,
+          "win_rate": 0.1,
           "avg_damage_dealt": 0.0
         }
       ],
-      "elo_stderr": 38.9
-    },
-    {
-      "rank": 11,
-      "name": "heuristic_hunter",
-      "display_name": "Hunter",
-      "approach": "heuristic",
-      "description": "Active-pursuit agent designed to land shot-downs.",
-      "author": "A. Louette",
-      "elo": 1305.7,
-      "games": 110,
-      "wins": 32,
-      "losses": 78,
-      "draws": 0,
-      "kills": 0,
-      "kill_rate": 0.0,
-      "win_rate": 0.291,
-      "deaths": {
-        "shot_down": 0,
-        "collision": 0,
-        "out_of_bounds": 78,
-        "timeout": 0,
-        "survived": 32
-      },
-      "avg_health_remaining": 0.291,
-      "avg_damage_dealt": 0.0,
-      "avg_damage_taken": 0.008,
-      "avg_survival_time": 22.2,
-      "per_opponent": [
-        {
-          "opponent": "heuristic_aggressive",
-          "games": 10,
-          "wins": 5,
-          "losses": 5,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.5,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_apf",
-          "games": 10,
-          "wins": 5,
-          "losses": 5,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.5,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_circler",
-          "games": 10,
-          "wins": 3,
-          "losses": 7,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.3,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_evasive",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_pn",
-          "games": 10,
-          "wins": 8,
-          "losses": 2,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.8,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "heuristic_survivor",
-          "games": 10,
-          "wins": 4,
-          "losses": 6,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.4,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "arthur_louette",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group06_ppo1",
-          "games": 10,
-          "wins": 2,
-          "losses": 8,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.2,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "group04_league",
-          "games": 10,
-          "wins": 0,
-          "losses": 10,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.0,
-          "avg_damage_dealt": 0.0
-        },
-        {
-          "opponent": "groupRafalev2_ppo",
-          "games": 10,
-          "wins": 3,
-          "losses": 7,
-          "kills": 0,
-          "kill_rate": 0.0,
-          "win_rate": 0.3,
-          "avg_damage_dealt": 0.0
-        }
-      ],
-      "elo_stderr": 38.9
+      "elo_stderr": 44.9
     }
   ],
   "matchup_matrix": {
@@ -1476,13 +2596,33 @@
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
-        "win_rate": 0.0,
+      "group04_v6": {
+        "win_rate": 0.1,
         "kill_rate": 0.0,
         "games": 10
       },
       "groupRafalev2_ppo": {
         "win_rate": 0.4,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.5,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 0.8,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.1,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -1494,17 +2634,17 @@
         "games": 10
       },
       "heuristic_circler": {
-        "win_rate": 0.7,
+        "win_rate": 0.6,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_evasive": {
-        "win_rate": 0.0,
+        "win_rate": 0.2,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_hunter": {
-        "win_rate": 0.5,
+        "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1514,7 +2654,7 @@
         "games": 10
       },
       "heuristic_survivor": {
-        "win_rate": 0.5,
+        "win_rate": 0.4,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1528,13 +2668,33 @@
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
-        "win_rate": 0.0,
+      "group04_v6": {
+        "win_rate": 0.2,
         "kill_rate": 0.0,
         "games": 10
       },
       "groupRafalev2_ppo": {
-        "win_rate": 0.4,
+        "win_rate": 0.7,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.6,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.1,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -1546,12 +2706,12 @@
         "games": 10
       },
       "heuristic_apf": {
-        "win_rate": 0.3,
+        "win_rate": 0.4,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_evasive": {
-        "win_rate": 0.1,
+        "win_rate": 0.3,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1566,7 +2726,7 @@
         "games": 10
       },
       "heuristic_survivor": {
-        "win_rate": 0.3,
+        "win_rate": 0.2,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1576,17 +2736,37 @@
         "games": 10
       },
       "group06_ppo1": {
-        "win_rate": 0.2,
+        "win_rate": 0.3,
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
-        "win_rate": 0.0,
+      "group04_v6": {
+        "win_rate": 0.2,
         "kill_rate": 0.0,
         "games": 10
       },
       "groupRafalev2_ppo": {
         "win_rate": 0.4,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.3,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 0.6,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -1598,12 +2778,12 @@
         "games": 10
       },
       "heuristic_apf": {
-        "win_rate": 1.0,
+        "win_rate": 0.8,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_circler": {
-        "win_rate": 0.9,
+        "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1613,12 +2793,12 @@
         "games": 10
       },
       "heuristic_pn": {
-        "win_rate": 0.7,
+        "win_rate": 0.9,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_survivor": {
-        "win_rate": 0.8,
+        "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1628,17 +2808,37 @@
         "games": 10
       },
       "group06_ppo1": {
-        "win_rate": 0.2,
+        "win_rate": 0.3,
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
+      "group04_v6": {
         "win_rate": 0.0,
         "kill_rate": 0.0,
         "games": 10
       },
       "groupRafalev2_ppo": {
-        "win_rate": 0.4,
+        "win_rate": 0.5,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.2,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.1,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -1650,7 +2850,7 @@
         "games": 10
       },
       "heuristic_apf": {
-        "win_rate": 0.5,
+        "win_rate": 0.3,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1665,7 +2865,7 @@
         "games": 10
       },
       "heuristic_pn": {
-        "win_rate": 0.8,
+        "win_rate": 0.5,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1680,17 +2880,37 @@
         "games": 10
       },
       "group06_ppo1": {
-        "win_rate": 0.2,
+        "win_rate": 0.1,
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
+      "group04_v6": {
         "win_rate": 0.0,
         "kill_rate": 0.0,
         "games": 10
       },
       "groupRafalev2_ppo": {
-        "win_rate": 0.3,
+        "win_rate": 0.8,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.2,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 0.8,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.6,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -1712,17 +2932,89 @@
         "games": 10
       },
       "heuristic_evasive": {
+        "win_rate": 0.1,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_hunter": {
+        "win_rate": 0.5,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_survivor": {
+        "win_rate": 0.4,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "arthur_louette": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group06_ppo1": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group04_v6": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupRafalev2_ppo": {
+        "win_rate": 0.5,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.7,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.2,
+        "kill_rate": 0.0,
+        "games": 10
+      }
+    },
+    "heuristic_survivor": {
+      "heuristic_aggressive": {
+        "win_rate": 0.4,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_apf": {
+        "win_rate": 0.6,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_circler": {
+        "win_rate": 0.8,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_evasive": {
         "win_rate": 0.3,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_hunter": {
-        "win_rate": 0.2,
+        "win_rate": 0.6,
         "kill_rate": 0.0,
         "games": 10
       },
-      "heuristic_survivor": {
-        "win_rate": 0.5,
+      "heuristic_pn": {
+        "win_rate": 0.6,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1736,8 +3028,8 @@
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
-        "win_rate": 0.0,
+      "group04_v6": {
+        "win_rate": 0.1,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1745,56 +3037,24 @@
         "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
-      }
-    },
-    "heuristic_survivor": {
-      "heuristic_aggressive": {
-        "win_rate": 0.4,
-        "kill_rate": 0.0,
-        "games": 10
       },
-      "heuristic_apf": {
-        "win_rate": 0.5,
-        "kill_rate": 0.0,
-        "games": 10
-      },
-      "heuristic_circler": {
-        "win_rate": 0.7,
-        "kill_rate": 0.0,
-        "games": 10
-      },
-      "heuristic_evasive": {
-        "win_rate": 0.2,
-        "kill_rate": 0.0,
-        "games": 10
-      },
-      "heuristic_hunter": {
+      "RealMadrid": {
         "win_rate": 0.6,
         "kill_rate": 0.0,
         "games": 10
       },
-      "heuristic_pn": {
-        "win_rate": 0.5,
-        "kill_rate": 0.0,
-        "games": 10
-      },
-      "arthur_louette": {
-        "win_rate": 0.0,
-        "kill_rate": 0.0,
-        "games": 10
-      },
-      "group06_ppo1": {
-        "win_rate": 0.2,
-        "kill_rate": 0.0,
-        "games": 10
-      },
-      "group04_league": {
-        "win_rate": 0.0,
-        "kill_rate": 0.0,
-        "games": 10
-      },
-      "groupRafalev2_ppo": {
+      "groupSoAlone_whatever": {
         "win_rate": 0.7,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.4,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -1832,21 +3092,41 @@
       },
       "heuristic_survivor": {
         "win_rate": 1.0,
-        "kill_rate": 0.2,
-        "games": 10
-      },
-      "group06_ppo1": {
-        "win_rate": 0.9,
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
-        "win_rate": 0.9,
+      "group06_ppo1": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group04_v6": {
+        "win_rate": 1.0,
         "kill_rate": 0.0,
         "games": 10
       },
       "groupRafalev2_ppo": {
+        "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
         "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 0.7,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -1863,36 +3143,36 @@
         "games": 10
       },
       "heuristic_circler": {
-        "win_rate": 0.8,
+        "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_evasive": {
-        "win_rate": 0.8,
+        "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_hunter": {
-        "win_rate": 0.8,
-        "kill_rate": 0.0,
-        "games": 10
-      },
-      "heuristic_pn": {
         "win_rate": 0.9,
         "kill_rate": 0.0,
         "games": 10
       },
+      "heuristic_pn": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
       "heuristic_survivor": {
-        "win_rate": 0.8,
+        "win_rate": 0.9,
         "kill_rate": 0.0,
         "games": 10
       },
       "arthur_louette": {
-        "win_rate": 0.1,
+        "win_rate": 0.0,
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
+      "group04_v6": {
         "win_rate": 1.0,
         "kill_rate": 0.0,
         "games": 10
@@ -1901,21 +3181,41 @@
         "win_rate": 1.0,
         "kill_rate": 0.0,
         "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
       }
     },
-    "group04_league": {
+    "group04_v6": {
       "heuristic_aggressive": {
-        "win_rate": 1.0,
+        "win_rate": 0.9,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_apf": {
-        "win_rate": 1.0,
+        "win_rate": 0.8,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_circler": {
-        "win_rate": 1.0,
+        "win_rate": 0.8,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1935,12 +3235,12 @@
         "games": 10
       },
       "heuristic_survivor": {
-        "win_rate": 1.0,
+        "win_rate": 0.9,
         "kill_rate": 0.0,
         "games": 10
       },
       "arthur_louette": {
-        "win_rate": 0.1,
+        "win_rate": 0.0,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1950,7 +3250,27 @@
         "games": 10
       },
       "groupRafalev2_ppo": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
         "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.0,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -1962,7 +3282,7 @@
         "games": 10
       },
       "heuristic_apf": {
-        "win_rate": 0.6,
+        "win_rate": 0.3,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1972,12 +3292,84 @@
         "games": 10
       },
       "heuristic_evasive": {
-        "win_rate": 0.6,
+        "win_rate": 0.5,
         "kill_rate": 0.0,
         "games": 10
       },
       "heuristic_hunter": {
+        "win_rate": 0.2,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_pn": {
+        "win_rate": 0.5,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_survivor": {
+        "win_rate": 0.3,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "arthur_louette": {
+        "win_rate": 0.1,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group06_ppo1": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group04_v6": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.4,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      }
+    },
+    "RealMadrid": {
+      "heuristic_aggressive": {
+        "win_rate": 0.5,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_apf": {
+        "win_rate": 0.4,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_circler": {
         "win_rate": 0.7,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_evasive": {
+        "win_rate": 0.8,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_hunter": {
+        "win_rate": 0.8,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -1987,7 +3379,7 @@
         "games": 10
       },
       "heuristic_survivor": {
-        "win_rate": 0.3,
+        "win_rate": 0.4,
         "kill_rate": 0.0,
         "games": 10
       },
@@ -2001,8 +3393,244 @@
         "kill_rate": 0.0,
         "games": 10
       },
-      "group04_league": {
+      "group04_v6": {
         "win_rate": 0.1,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupRafalev2_ppo": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      }
+    },
+    "groupSoAlone_whatever": {
+      "heuristic_aggressive": {
+        "win_rate": 0.2,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_apf": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_circler": {
+        "win_rate": 0.4,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_evasive": {
+        "win_rate": 0.1,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_hunter": {
+        "win_rate": 0.2,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_pn": {
+        "win_rate": 0.1,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_survivor": {
+        "win_rate": 0.3,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "arthur_louette": {
+        "win_rate": 0.3,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group06_ppo1": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group04_v6": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupRafalev2_ppo": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.1,
+        "kill_rate": 0.0,
+        "games": 10
+      }
+    },
+    "group56_main": {
+      "heuristic_aggressive": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_apf": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_circler": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_evasive": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_hunter": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_pn": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_survivor": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "arthur_louette": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group06_ppo1": {
+        "win_rate": 0.1,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group04_v6": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupRafalev2_ppo": {
+        "win_rate": 0.6,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupMaioRutten_league": {
+        "win_rate": 0.3,
+        "kill_rate": 0.0,
+        "games": 10
+      }
+    },
+    "groupMaioRutten_league": {
+      "heuristic_aggressive": {
+        "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_apf": {
+        "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_circler": {
+        "win_rate": 0.3,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_evasive": {
+        "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_hunter": {
+        "win_rate": 0.4,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_pn": {
+        "win_rate": 0.8,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "heuristic_survivor": {
+        "win_rate": 0.6,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "arthur_louette": {
+        "win_rate": 0.3,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group06_ppo1": {
+        "win_rate": 0.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group04_v6": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupRafalev2_ppo": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "RealMadrid": {
+        "win_rate": 1.0,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "groupSoAlone_whatever": {
+        "win_rate": 0.9,
+        "kill_rate": 0.0,
+        "games": 10
+      },
+      "group56_main": {
+        "win_rate": 0.7,
         "kill_rate": 0.0,
         "games": 10
       }
@@ -2016,7 +3644,7 @@
       "wins_b": 4,
       "draws": 0,
       "mean_reward_a": 2523.5,
-      "mean_reward_b": 2260.800048828125
+      "mean_reward_b": 2261.0
     },
     {
       "player_a": "heuristic_aggressive",
@@ -2083,12 +3711,12 @@
     },
     {
       "player_a": "heuristic_aggressive",
-      "player_b": "group04_league",
-      "wins_a": 0,
-      "wins_b": 10,
+      "player_b": "group04_v6",
+      "wins_a": 1,
+      "wins_b": 9,
       "draws": 0,
-      "mean_reward_a": 1804.0999755859375,
-      "mean_reward_b": 3959.800048828125
+      "mean_reward_a": 1954.9000244140625,
+      "mean_reward_b": 3440.0
     },
     {
       "player_a": "heuristic_aggressive",
@@ -2100,31 +3728,67 @@
       "mean_reward_b": 2829.60009765625
     },
     {
+      "player_a": "heuristic_aggressive",
+      "player_b": "RealMadrid",
+      "wins_a": 5,
+      "wins_b": 5,
+      "draws": 0,
+      "mean_reward_a": 2295.0,
+      "mean_reward_b": 2690.300048828125
+    },
+    {
+      "player_a": "heuristic_aggressive",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 8,
+      "wins_b": 2,
+      "draws": 0,
+      "mean_reward_a": 1952.300048828125,
+      "mean_reward_b": 1462.800048828125
+    },
+    {
+      "player_a": "heuristic_aggressive",
+      "player_b": "group56_main",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1779.300048828125,
+      "mean_reward_b": 4660.10009765625
+    },
+    {
+      "player_a": "heuristic_aggressive",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 1,
+      "wins_b": 9,
+      "draws": 0,
+      "mean_reward_a": 1837.0,
+      "mean_reward_b": 3634.5
+    },
+    {
       "player_a": "heuristic_apf",
       "player_b": "heuristic_circler",
-      "wins_a": 7,
-      "wins_b": 3,
+      "wins_a": 6,
+      "wins_b": 4,
       "draws": 0,
-      "mean_reward_a": 2614.300048828125,
-      "mean_reward_b": 2043.0
+      "mean_reward_a": 2473.300048828125,
+      "mean_reward_b": 2178.800048828125
     },
     {
       "player_a": "heuristic_apf",
       "player_b": "heuristic_evasive",
-      "wins_a": 0,
-      "wins_b": 10,
+      "wins_a": 2,
+      "wins_b": 8,
       "draws": 0,
-      "mean_reward_a": 1635.300048828125,
-      "mean_reward_b": 3196.89990234375
+      "mean_reward_a": 2031.9000244140625,
+      "mean_reward_b": 2882.89990234375
     },
     {
       "player_a": "heuristic_apf",
       "player_b": "heuristic_hunter",
-      "wins_a": 5,
-      "wins_b": 5,
+      "wins_a": 7,
+      "wins_b": 3,
       "draws": 0,
-      "mean_reward_a": 2354.0,
-      "mean_reward_b": 2374.39990234375
+      "mean_reward_a": 2646.699951171875,
+      "mean_reward_b": 2050.60009765625
     },
     {
       "player_a": "heuristic_apf",
@@ -2132,17 +3796,17 @@
       "wins_a": 7,
       "wins_b": 3,
       "draws": 0,
-      "mean_reward_a": 2629.5,
-      "mean_reward_b": 2059.199951171875
+      "mean_reward_a": 2634.10009765625,
+      "mean_reward_b": 2075.89990234375
     },
     {
       "player_a": "heuristic_apf",
       "player_b": "heuristic_survivor",
-      "wins_a": 5,
-      "wins_b": 5,
+      "wins_a": 4,
+      "wins_b": 6,
       "draws": 0,
-      "mean_reward_a": 2398.5,
-      "mean_reward_b": 2405.800048828125
+      "mean_reward_a": 2252.199951171875,
+      "mean_reward_b": 2418.300048828125
     },
     {
       "player_a": "heuristic_apf",
@@ -2150,8 +3814,8 @@
       "wins_a": 0,
       "wins_b": 10,
       "draws": 0,
-      "mean_reward_a": -8436.099609375,
-      "mean_reward_b": 23917.69921875
+      "mean_reward_a": -8000.2001953125,
+      "mean_reward_b": 23002.099609375
     },
     {
       "player_a": "heuristic_apf",
@@ -2159,35 +3823,71 @@
       "wins_a": 1,
       "wins_b": 9,
       "draws": 0,
-      "mean_reward_a": 1897.5999755859375,
-      "mean_reward_b": 3760.89990234375
+      "mean_reward_a": 1882.300048828125,
+      "mean_reward_b": 3716.300048828125
     },
     {
       "player_a": "heuristic_apf",
-      "player_b": "group04_league",
-      "wins_a": 0,
-      "wins_b": 10,
+      "player_b": "group04_v6",
+      "wins_a": 2,
+      "wins_b": 8,
       "draws": 0,
-      "mean_reward_a": 1805.5999755859375,
-      "mean_reward_b": 3954.39990234375
+      "mean_reward_a": 1921.300048828125,
+      "mean_reward_b": 3004.699951171875
     },
     {
       "player_a": "heuristic_apf",
       "player_b": "groupRafalev2_ppo",
-      "wins_a": 4,
-      "wins_b": 6,
+      "wins_a": 7,
+      "wins_b": 3,
       "draws": 0,
-      "mean_reward_a": 2075.60009765625,
-      "mean_reward_b": 2871.39990234375
+      "mean_reward_a": 2180.699951171875,
+      "mean_reward_b": 2016.699951171875
+    },
+    {
+      "player_a": "heuristic_apf",
+      "player_b": "RealMadrid",
+      "wins_a": 6,
+      "wins_b": 4,
+      "draws": 0,
+      "mean_reward_a": 2318.300048828125,
+      "mean_reward_b": 2257.300048828125
+    },
+    {
+      "player_a": "heuristic_apf",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 1704.9000244140625,
+      "mean_reward_b": 351.20001220703125
+    },
+    {
+      "player_a": "heuristic_apf",
+      "player_b": "group56_main",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1768.0,
+      "mean_reward_b": 4529.0
+    },
+    {
+      "player_a": "heuristic_apf",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 1,
+      "wins_b": 9,
+      "draws": 0,
+      "mean_reward_a": 1937.4000244140625,
+      "mean_reward_b": 3660.10009765625
     },
     {
       "player_a": "heuristic_circler",
       "player_b": "heuristic_evasive",
-      "wins_a": 1,
-      "wins_b": 9,
+      "wins_a": 3,
+      "wins_b": 7,
       "draws": 0,
-      "mean_reward_a": 1803.699951171875,
-      "mean_reward_b": 2996.199951171875
+      "mean_reward_a": 2120.300048828125,
+      "mean_reward_b": 2756.5
     },
     {
       "player_a": "heuristic_circler",
@@ -2195,8 +3895,8 @@
       "wins_a": 7,
       "wins_b": 3,
       "draws": 0,
-      "mean_reward_a": 2651.300048828125,
-      "mean_reward_b": 2087.800048828125
+      "mean_reward_a": 2661.800048828125,
+      "mean_reward_b": 2133.199951171875
     },
     {
       "player_a": "heuristic_circler",
@@ -2204,17 +3904,17 @@
       "wins_a": 5,
       "wins_b": 5,
       "draws": 0,
-      "mean_reward_a": 2334.699951171875,
-      "mean_reward_b": 2240.800048828125
+      "mean_reward_a": 2353.699951171875,
+      "mean_reward_b": 2339.800048828125
     },
     {
       "player_a": "heuristic_circler",
       "player_b": "heuristic_survivor",
-      "wins_a": 3,
-      "wins_b": 7,
+      "wins_a": 2,
+      "wins_b": 8,
       "draws": 0,
-      "mean_reward_a": 2068.60009765625,
-      "mean_reward_b": 2689.699951171875
+      "mean_reward_a": 1964.4000244140625,
+      "mean_reward_b": 2895.60009765625
     },
     {
       "player_a": "heuristic_circler",
@@ -2222,26 +3922,26 @@
       "wins_a": 0,
       "wins_b": 10,
       "draws": 0,
-      "mean_reward_a": -8931.7001953125,
-      "mean_reward_b": 24844.400390625
+      "mean_reward_a": -7627.60009765625,
+      "mean_reward_b": 22114.0
     },
     {
       "player_a": "heuristic_circler",
       "player_b": "group06_ppo1",
-      "wins_a": 2,
-      "wins_b": 8,
+      "wins_a": 3,
+      "wins_b": 7,
       "draws": 0,
-      "mean_reward_a": 1969.4000244140625,
-      "mean_reward_b": 3447.199951171875
+      "mean_reward_a": 2043.699951171875,
+      "mean_reward_b": 3049.89990234375
     },
     {
       "player_a": "heuristic_circler",
-      "player_b": "group04_league",
-      "wins_a": 0,
-      "wins_b": 10,
+      "player_b": "group04_v6",
+      "wins_a": 2,
+      "wins_b": 8,
       "draws": 0,
-      "mean_reward_a": 1779.0,
-      "mean_reward_b": 3944.199951171875
+      "mean_reward_a": 2053.89990234375,
+      "mean_reward_b": 3338.800048828125
     },
     {
       "player_a": "heuristic_circler",
@@ -2249,8 +3949,44 @@
       "wins_a": 4,
       "wins_b": 6,
       "draws": 0,
-      "mean_reward_a": 2095.699951171875,
-      "mean_reward_b": 2902.0
+      "mean_reward_a": 2142.39990234375,
+      "mean_reward_b": 3113.5
+    },
+    {
+      "player_a": "heuristic_circler",
+      "player_b": "RealMadrid",
+      "wins_a": 3,
+      "wins_b": 7,
+      "draws": 0,
+      "mean_reward_a": 1984.5999755859375,
+      "mean_reward_b": 2658.5
+    },
+    {
+      "player_a": "heuristic_circler",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 6,
+      "wins_b": 4,
+      "draws": 0,
+      "mean_reward_a": 1972.5,
+      "mean_reward_b": 2205.10009765625
+    },
+    {
+      "player_a": "heuristic_circler",
+      "player_b": "group56_main",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1699.5,
+      "mean_reward_b": 4478.2001953125
+    },
+    {
+      "player_a": "heuristic_circler",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 7,
+      "wins_b": 3,
+      "draws": 0,
+      "mean_reward_a": 2444.89990234375,
+      "mean_reward_b": 2422.39990234375
     },
     {
       "player_a": "heuristic_evasive",
@@ -2258,26 +3994,26 @@
       "wins_a": 10,
       "wins_b": 0,
       "draws": 0,
-      "mean_reward_a": 3245.0,
-      "mean_reward_b": 1760.0
+      "mean_reward_a": 3159.60009765625,
+      "mean_reward_b": 1651.9000244140625
     },
     {
       "player_a": "heuristic_evasive",
       "player_b": "heuristic_pn",
+      "wins_a": 9,
+      "wins_b": 1,
+      "draws": 0,
+      "mean_reward_a": 3034.300048828125,
+      "mean_reward_b": 1870.5
+    },
+    {
+      "player_a": "heuristic_evasive",
+      "player_b": "heuristic_survivor",
       "wins_a": 7,
       "wins_b": 3,
       "draws": 0,
-      "mean_reward_a": 2669.5,
-      "mean_reward_b": 2147.60009765625
-    },
-    {
-      "player_a": "heuristic_evasive",
-      "player_b": "heuristic_survivor",
-      "wins_a": 8,
-      "wins_b": 2,
-      "draws": 0,
-      "mean_reward_a": 2968.199951171875,
-      "mean_reward_b": 2114.699951171875
+      "mean_reward_a": 2754.89990234375,
+      "mean_reward_b": 2233.89990234375
     },
     {
       "player_a": "heuristic_evasive",
@@ -2285,44 +4021,80 @@
       "wins_a": 0,
       "wins_b": 10,
       "draws": 0,
-      "mean_reward_a": -8909.900390625,
-      "mean_reward_b": 25385.30078125
+      "mean_reward_a": -8467.900390625,
+      "mean_reward_b": 24193.30078125
     },
     {
       "player_a": "heuristic_evasive",
       "player_b": "group06_ppo1",
-      "wins_a": 2,
-      "wins_b": 8,
+      "wins_a": 3,
+      "wins_b": 7,
       "draws": 0,
-      "mean_reward_a": 2135.699951171875,
-      "mean_reward_b": 3700.89990234375
+      "mean_reward_a": 2250.89990234375,
+      "mean_reward_b": 3632.89990234375
     },
     {
       "player_a": "heuristic_evasive",
-      "player_b": "group04_league",
+      "player_b": "group04_v6",
       "wins_a": 0,
       "wins_b": 10,
       "draws": 0,
-      "mean_reward_a": 1845.5999755859375,
-      "mean_reward_b": 4122.5
+      "mean_reward_a": 1901.5,
+      "mean_reward_b": 3888.60009765625
     },
     {
       "player_a": "heuristic_evasive",
       "player_b": "groupRafalev2_ppo",
-      "wins_a": 4,
-      "wins_b": 6,
+      "wins_a": 5,
+      "wins_b": 5,
       "draws": 0,
-      "mean_reward_a": 2255.699951171875,
-      "mean_reward_b": 3015.89990234375
+      "mean_reward_a": 2458.699951171875,
+      "mean_reward_b": 3006.39990234375
+    },
+    {
+      "player_a": "heuristic_evasive",
+      "player_b": "RealMadrid",
+      "wins_a": 2,
+      "wins_b": 8,
+      "draws": 0,
+      "mean_reward_a": 2182.800048828125,
+      "mean_reward_b": 3495.300048828125
+    },
+    {
+      "player_a": "heuristic_evasive",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 9,
+      "wins_b": 1,
+      "draws": 0,
+      "mean_reward_a": 2005.300048828125,
+      "mean_reward_b": 1121.0
+    },
+    {
+      "player_a": "heuristic_evasive",
+      "player_b": "group56_main",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1934.300048828125,
+      "mean_reward_b": 4902.5
+    },
+    {
+      "player_a": "heuristic_evasive",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 1,
+      "wins_b": 9,
+      "draws": 0,
+      "mean_reward_a": 1991.0999755859375,
+      "mean_reward_b": 3968.10009765625
     },
     {
       "player_a": "heuristic_hunter",
       "player_b": "heuristic_pn",
-      "wins_a": 8,
-      "wins_b": 2,
+      "wins_a": 5,
+      "wins_b": 5,
       "draws": 0,
-      "mean_reward_a": 2836.10009765625,
-      "mean_reward_b": 1970.0999755859375
+      "mean_reward_a": 2412.10009765625,
+      "mean_reward_b": 2387.5
     },
     {
       "player_a": "heuristic_hunter",
@@ -2330,8 +4102,8 @@
       "wins_a": 4,
       "wins_b": 6,
       "draws": 0,
-      "mean_reward_a": 2281.0,
-      "mean_reward_b": 2624.39990234375
+      "mean_reward_a": 2248.39990234375,
+      "mean_reward_b": 2620.0
     },
     {
       "player_a": "heuristic_hunter",
@@ -2339,80 +4111,152 @@
       "wins_a": 0,
       "wins_b": 10,
       "draws": 0,
-      "mean_reward_a": -8091.60009765625,
-      "mean_reward_b": 23355.69921875
+      "mean_reward_a": -8941.599609375,
+      "mean_reward_b": 25290.0
     },
     {
       "player_a": "heuristic_hunter",
-      "player_b": "group06_ppo1",
-      "wins_a": 2,
-      "wins_b": 8,
-      "draws": 0,
-      "mean_reward_a": 1932.199951171875,
-      "mean_reward_b": 3297.39990234375
-    },
-    {
-      "player_a": "heuristic_hunter",
-      "player_b": "group04_league",
-      "wins_a": 0,
-      "wins_b": 10,
-      "draws": 0,
-      "mean_reward_a": 1701.300048828125,
-      "mean_reward_b": 3921.199951171875
-    },
-    {
-      "player_a": "heuristic_hunter",
-      "player_b": "groupRafalev2_ppo",
-      "wins_a": 3,
-      "wins_b": 7,
-      "draws": 0,
-      "mean_reward_a": 1985.699951171875,
-      "mean_reward_b": 2912.800048828125
-    },
-    {
-      "player_a": "heuristic_pn",
-      "player_b": "heuristic_survivor",
-      "wins_a": 5,
-      "wins_b": 5,
-      "draws": 0,
-      "mean_reward_a": 2430.60009765625,
-      "mean_reward_b": 2383.5
-    },
-    {
-      "player_a": "heuristic_pn",
-      "player_b": "arthur_louette",
-      "wins_a": 0,
-      "wins_b": 10,
-      "draws": 0,
-      "mean_reward_a": -8684.099609375,
-      "mean_reward_b": 24669.80078125
-    },
-    {
-      "player_a": "heuristic_pn",
       "player_b": "group06_ppo1",
       "wins_a": 1,
       "wins_b": 9,
       "draws": 0,
-      "mean_reward_a": 1896.699951171875,
-      "mean_reward_b": 3510.800048828125
+      "mean_reward_a": 1888.0,
+      "mean_reward_b": 3698.199951171875
     },
     {
-      "player_a": "heuristic_pn",
-      "player_b": "group04_league",
+      "player_a": "heuristic_hunter",
+      "player_b": "group04_v6",
       "wins_a": 0,
       "wins_b": 10,
       "draws": 0,
-      "mean_reward_a": 1747.9000244140625,
-      "mean_reward_b": 4079.5
+      "mean_reward_a": 1845.199951171875,
+      "mean_reward_b": 3605.5
+    },
+    {
+      "player_a": "heuristic_hunter",
+      "player_b": "groupRafalev2_ppo",
+      "wins_a": 8,
+      "wins_b": 2,
+      "draws": 0,
+      "mean_reward_a": 2524.300048828125,
+      "mean_reward_b": 1974.300048828125
+    },
+    {
+      "player_a": "heuristic_hunter",
+      "player_b": "RealMadrid",
+      "wins_a": 2,
+      "wins_b": 8,
+      "draws": 0,
+      "mean_reward_a": 1910.0999755859375,
+      "mean_reward_b": 2867.39990234375
+    },
+    {
+      "player_a": "heuristic_hunter",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 8,
+      "wins_b": 2,
+      "draws": 0,
+      "mean_reward_a": 1835.0,
+      "mean_reward_b": 1416.800048828125
+    },
+    {
+      "player_a": "heuristic_hunter",
+      "player_b": "group56_main",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1741.4000244140625,
+      "mean_reward_b": 4533.89990234375
+    },
+    {
+      "player_a": "heuristic_hunter",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 6,
+      "wins_b": 4,
+      "draws": 0,
+      "mean_reward_a": 2326.60009765625,
+      "mean_reward_b": 2522.10009765625
+    },
+    {
+      "player_a": "heuristic_pn",
+      "player_b": "heuristic_survivor",
+      "wins_a": 4,
+      "wins_b": 6,
+      "draws": 0,
+      "mean_reward_a": 2229.5,
+      "mean_reward_b": 2438.699951171875
+    },
+    {
+      "player_a": "heuristic_pn",
+      "player_b": "arthur_louette",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": -9602.2998046875,
+      "mean_reward_b": 26595.0
+    },
+    {
+      "player_a": "heuristic_pn",
+      "player_b": "group06_ppo1",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1816.9000244140625,
+      "mean_reward_b": 4058.39990234375
+    },
+    {
+      "player_a": "heuristic_pn",
+      "player_b": "group04_v6",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1833.5999755859375,
+      "mean_reward_b": 3610.10009765625
     },
     {
       "player_a": "heuristic_pn",
       "player_b": "groupRafalev2_ppo",
+      "wins_a": 5,
+      "wins_b": 5,
+      "draws": 0,
+      "mean_reward_a": 2196.699951171875,
+      "mean_reward_b": 2645.199951171875
+    },
+    {
+      "player_a": "heuristic_pn",
+      "player_b": "RealMadrid",
       "wins_a": 7,
       "wins_b": 3,
       "draws": 0,
-      "mean_reward_a": 2512.60009765625,
-      "mean_reward_b": 2544.800048828125
+      "mean_reward_a": 2605.10009765625,
+      "mean_reward_b": 2312.39990234375
+    },
+    {
+      "player_a": "heuristic_pn",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 9,
+      "wins_b": 1,
+      "draws": 0,
+      "mean_reward_a": 1557.199951171875,
+      "mean_reward_b": 634.2000122070312
+    },
+    {
+      "player_a": "heuristic_pn",
+      "player_b": "group56_main",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1682.4000244140625,
+      "mean_reward_b": 4508.10009765625
+    },
+    {
+      "player_a": "heuristic_pn",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 2,
+      "wins_b": 8,
+      "draws": 0,
+      "mean_reward_a": 1973.699951171875,
+      "mean_reward_b": 3427.60009765625
     },
     {
       "player_a": "heuristic_survivor",
@@ -2420,26 +4264,26 @@
       "wins_a": 0,
       "wins_b": 10,
       "draws": 0,
-      "mean_reward_a": -8840.400390625,
-      "mean_reward_b": 25324.69921875
+      "mean_reward_a": -8030.10009765625,
+      "mean_reward_b": 23288.5
     },
     {
       "player_a": "heuristic_survivor",
       "player_b": "group06_ppo1",
-      "wins_a": 2,
-      "wins_b": 8,
+      "wins_a": 1,
+      "wins_b": 9,
       "draws": 0,
-      "mean_reward_a": 2134.0,
-      "mean_reward_b": 3534.89990234375
+      "mean_reward_a": 1964.300048828125,
+      "mean_reward_b": 3736.0
     },
     {
       "player_a": "heuristic_survivor",
-      "player_b": "group04_league",
-      "wins_a": 0,
-      "wins_b": 10,
+      "player_b": "group04_v6",
+      "wins_a": 1,
+      "wins_b": 9,
       "draws": 0,
-      "mean_reward_a": 1898.4000244140625,
-      "mean_reward_b": 3970.5
+      "mean_reward_a": 1959.9000244140625,
+      "mean_reward_b": 3312.60009765625
     },
     {
       "player_a": "heuristic_survivor",
@@ -2447,62 +4291,296 @@
       "wins_a": 7,
       "wins_b": 3,
       "draws": 0,
-      "mean_reward_a": 2198.300048828125,
-      "mean_reward_b": 1870.800048828125
+      "mean_reward_a": 2385.699951171875,
+      "mean_reward_b": 2109.699951171875
+    },
+    {
+      "player_a": "heuristic_survivor",
+      "player_b": "RealMadrid",
+      "wins_a": 6,
+      "wins_b": 4,
+      "draws": 0,
+      "mean_reward_a": 2341.89990234375,
+      "mean_reward_b": 2335.199951171875
+    },
+    {
+      "player_a": "heuristic_survivor",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 7,
+      "wins_b": 3,
+      "draws": 0,
+      "mean_reward_a": 2156.699951171875,
+      "mean_reward_b": 1929.9000244140625
+    },
+    {
+      "player_a": "heuristic_survivor",
+      "player_b": "group56_main",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1888.199951171875,
+      "mean_reward_b": 4772.2001953125
+    },
+    {
+      "player_a": "heuristic_survivor",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 4,
+      "wins_b": 6,
+      "draws": 0,
+      "mean_reward_a": 2206.5,
+      "mean_reward_b": 2979.89990234375
     },
     {
       "player_a": "arthur_louette",
       "player_b": "group06_ppo1",
-      "wins_a": 9,
-      "wins_b": 1,
+      "wins_a": 10,
+      "wins_b": 0,
       "draws": 0,
-      "mean_reward_a": 4710.7998046875,
-      "mean_reward_b": 214.0
+      "mean_reward_a": 10636.900390625,
+      "mean_reward_b": 1220.0999755859375
     },
     {
       "player_a": "arthur_louette",
-      "player_b": "group04_league",
-      "wins_a": 9,
-      "wins_b": 1,
+      "player_b": "group04_v6",
+      "wins_a": 10,
+      "wins_b": 0,
       "draws": 0,
-      "mean_reward_a": 17444.599609375,
-      "mean_reward_b": -489.5
+      "mean_reward_a": 12007.099609375,
+      "mean_reward_b": -1644.4000244140625
     },
     {
       "player_a": "arthur_louette",
       "player_b": "groupRafalev2_ppo",
-      "wins_a": 10,
-      "wins_b": 0,
-      "draws": 0,
-      "mean_reward_a": 2359.0,
-      "mean_reward_b": -113.19999694824219
-    },
-    {
-      "player_a": "group06_ppo1",
-      "player_b": "group04_league",
-      "wins_a": 10,
-      "wins_b": 0,
-      "draws": 0,
-      "mean_reward_a": 9024.7001953125,
-      "mean_reward_b": 2229.699951171875
-    },
-    {
-      "player_a": "group06_ppo1",
-      "player_b": "groupRafalev2_ppo",
-      "wins_a": 10,
-      "wins_b": 0,
-      "draws": 0,
-      "mean_reward_a": 4506.7001953125,
-      "mean_reward_b": -772.7999877929688
-    },
-    {
-      "player_a": "group04_league",
-      "player_b": "groupRafalev2_ppo",
       "wins_a": 9,
       "wins_b": 1,
       "draws": 0,
-      "mean_reward_a": 8663.7001953125,
-      "mean_reward_b": 6569.7998046875
+      "mean_reward_a": 2936.5,
+      "mean_reward_b": -461.70001220703125
+    },
+    {
+      "player_a": "arthur_louette",
+      "player_b": "RealMadrid",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 13312.900390625,
+      "mean_reward_b": -274.0
+    },
+    {
+      "player_a": "arthur_louette",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 7,
+      "wins_b": 3,
+      "draws": 0,
+      "mean_reward_a": 1176.0999755859375,
+      "mean_reward_b": 94.9000015258789
+    },
+    {
+      "player_a": "arthur_louette",
+      "player_b": "group56_main",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 40321.1015625,
+      "mean_reward_b": -9802.400390625
+    },
+    {
+      "player_a": "arthur_louette",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 7,
+      "wins_b": 3,
+      "draws": 0,
+      "mean_reward_a": 1993.699951171875,
+      "mean_reward_b": 777.9000244140625
+    },
+    {
+      "player_a": "group06_ppo1",
+      "player_b": "group04_v6",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 14009.900390625,
+      "mean_reward_b": 1190.4000244140625
+    },
+    {
+      "player_a": "group06_ppo1",
+      "player_b": "groupRafalev2_ppo",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 10729.5,
+      "mean_reward_b": -27.0
+    },
+    {
+      "player_a": "group06_ppo1",
+      "player_b": "RealMadrid",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 9681.2001953125,
+      "mean_reward_b": 1822.9000244140625
+    },
+    {
+      "player_a": "group06_ppo1",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 1913.4000244140625,
+      "mean_reward_b": 76.5
+    },
+    {
+      "player_a": "group06_ppo1",
+      "player_b": "group56_main",
+      "wins_a": 9,
+      "wins_b": 1,
+      "draws": 0,
+      "mean_reward_a": 7780.7998046875,
+      "mean_reward_b": 5675.5
+    },
+    {
+      "player_a": "group06_ppo1",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 3474.5,
+      "mean_reward_b": -83.30000305175781
+    },
+    {
+      "player_a": "group04_v6",
+      "player_b": "groupRafalev2_ppo",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 11382.400390625,
+      "mean_reward_b": 6865.60009765625
+    },
+    {
+      "player_a": "group04_v6",
+      "player_b": "RealMadrid",
+      "wins_a": 9,
+      "wins_b": 1,
+      "draws": 0,
+      "mean_reward_a": 11826.599609375,
+      "mean_reward_b": 6149.5
+    },
+    {
+      "player_a": "group04_v6",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 2527.5,
+      "mean_reward_b": 872.2999877929688
+    },
+    {
+      "player_a": "group04_v6",
+      "player_b": "group56_main",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 6668.39990234375,
+      "mean_reward_b": 4808.39990234375
+    },
+    {
+      "player_a": "group04_v6",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 5703.7001953125,
+      "mean_reward_b": 21012.19921875
+    },
+    {
+      "player_a": "groupRafalev2_ppo",
+      "player_b": "RealMadrid",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 4645.2001953125,
+      "mean_reward_b": 6643.10009765625
+    },
+    {
+      "player_a": "groupRafalev2_ppo",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 1392.199951171875,
+      "mean_reward_b": -114.5
+    },
+    {
+      "player_a": "groupRafalev2_ppo",
+      "player_b": "group56_main",
+      "wins_a": 4,
+      "wins_b": 6,
+      "draws": 0,
+      "mean_reward_a": 6058.5,
+      "mean_reward_b": 5876.2998046875
+    },
+    {
+      "player_a": "groupRafalev2_ppo",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 936.0,
+      "mean_reward_b": 6876.0
+    },
+    {
+      "player_a": "RealMadrid",
+      "player_b": "groupSoAlone_whatever",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 1348.9000244140625,
+      "mean_reward_b": 44.70000076293945
+    },
+    {
+      "player_a": "RealMadrid",
+      "player_b": "group56_main",
+      "wins_a": 10,
+      "wins_b": 0,
+      "draws": 0,
+      "mean_reward_a": 8697.900390625,
+      "mean_reward_b": 6393.2001953125
+    },
+    {
+      "player_a": "RealMadrid",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 1747.4000244140625,
+      "mean_reward_b": 8982.099609375
+    },
+    {
+      "player_a": "groupSoAlone_whatever",
+      "player_b": "group56_main",
+      "wins_a": 0,
+      "wins_b": 10,
+      "draws": 0,
+      "mean_reward_a": 329.3999938964844,
+      "mean_reward_b": 1666.699951171875
+    },
+    {
+      "player_a": "groupSoAlone_whatever",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 1,
+      "wins_b": 9,
+      "draws": 0,
+      "mean_reward_a": 1551.800048828125,
+      "mean_reward_b": 2939.10009765625
+    },
+    {
+      "player_a": "group56_main",
+      "player_b": "groupMaioRutten_league",
+      "wins_a": 3,
+      "wins_b": 7,
+      "draws": 0,
+      "mean_reward_a": 4554.39990234375,
+      "mean_reward_b": 5608.10009765625
     }
   ],
   "elo_method": "bradley_terry_map_sigma300"
